@@ -1,0 +1,359 @@
+/* body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.row {
+  position: relative;
+  padding: 17px 17px 17px 17px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  background-color: #E1D5E7;
+  flex: 1 0 300px;
+  This sets the width of the row elements to 300px or less, depending on the available space
+  margin: 10px 100px 0 100px;
+  border-radius: 8px;
+}
+
+.row img {
+  max-width: 400px;
+  max-height: 200px;
+  border-radius: 8px;
+  margin: 0 0 15px 0;
+}
+
+.row-details {
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  flex-wrap: wrap;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.00000002s ease-out;
+}
+
+.content p {
+  flex-basis: 0 0 100%;
+  margin: 0 0 0 0;
+}
+
+.content-container {
+  margin-left: 10px;
+  float: left;
+}
+
+.image-container {
+  float: left;
+  margin-right: 1rem;
+}
+
+.cat {
+  display: flex;
+}
+
+.text-container {
+  overflow: hidden;
+  float: right;
+  text-align: justify;
+}
+
+
+.row.expanded .content {
+  max-height: 2000px;
+  height: auto;
+  overflow: visible;
+
+}
+
+.toggle-btn {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 20px;
+  color: #3498db;
+  transition: transform 0.3s ease-out;
+}
+
+.row.expanded .toggle-btn {
+  transform: translateY(-50%) rotate(90deg);
+}
+
+.row-details {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-details img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.text-details {
+  flex: 1;
+}
+
+.text-details h3 {
+  margin-top: 0;
+}
+
+.text-details p {
+  margin-bottom: 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 11px 16px 11PX 16PX;
+  margin: 180px 0 0 1323px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+@media only screen and (max-width: 599px) {
+  .row-details img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 959px) {
+  .row-details {
+    flex-direction: row;
+  }
+
+  .row-details img {
+    max-width: 100px;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+
+  .row {
+    width: 100%;
+    flex: 1 0 100%;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .row-details img {
+    max-width: 150px;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+} */
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  /* text-align: justify; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: justify;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+}
+nav ul a:hover {
+  background-color: #555; /* Change the background color on hover */
+  color: #fff; /* Change the text color on hover */
+  border-radius: 5px;
+  padding: 5px;
+  /* Add any other styles you want to apply on hover */
+}
+/* Hero section styles */
+.hero {
+  text-align: center;
+  padding: 20px;
+}
+
+.row {
+  position: relative;
+  padding: 17px 17px 17px 17px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  background-color: #E1D5E7;
+  flex: 1 0 300px;
+  border-radius: 8px;
+  margin: 10px 5% 0 5%;
+}
+
+.row img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 0 15px 0;
+}
+
+.row-details {
+  display: flex;
+  flex-direction: column; /* Adjusted for smaller screens */
+}
+
+.content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-out;
+}
+
+.content p {
+  margin: 0 0 0 0;
+}
+
+.image-container,
+.text-container {
+  margin: 10px 0; 
+}
+
+.cat {
+  flex-direction: column; /* Adjusted for smaller screens */
+}
+
+.text-container {
+  text-align: justify;
+}
+
+.row.expanded .content {
+  max-height: 2000px;
+  height: auto;
+  overflow: visible;
+}
+
+.toggle-btn {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 20px;
+  color: #3498db;
+  transition: transform 0.3s ease-out;
+}
+
+.row.expanded .toggle-btn {
+  transform: translateY(-50%) rotate(90deg);
+}
+
+.button {
+  display: inline-block;
+  padding: 11px 16px;
+  margin: 118px 0 15px 10px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+#footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+#menu-content{
+  /* margin-bottom: 200px; */
+  text-align: center;
+  margin: 0 0 200px 0 ;
+}
+
+#menu-content ul {
+  list-style: none;
+  /* justify-content: center; */
+  margin: 0 50px 0 0 ;
+  line-height: 30px;
+}
+
+#menu-content a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+}
+
+/* Media queries for responsive design */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .row {
+    width: 90%;
+    margin: 10px 5% 0 5%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .row {
+    width: 80%;
+    margin: 10px 10% 0 10%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .row {
+    width: 70%;
+    margin: 10px 15% 0 15%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .row {
+    width: 60%;
+    margin: 10px 20% 0 20%;
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+  .row {
+    width: 50%;
+    margin: 10px 25% 0 25%;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .row {
+    width: 40%;
+    margin: 10px 30% 0 30%;
+  }
+}
+

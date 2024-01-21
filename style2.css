@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    border: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(12, 12, 81);
+    color: white;
+}
+
+nav {
+    display: flex;
+    background-color: rgba(6, 15, 44, 0.969);
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.left {
+    height: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(64, 64, 157);
+    font-size: 1.2rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(129, 50, 129);
+    height: 1.2px;
+    width: 90%;
+    margin: auto;
+}
+
+.leftsection {
+    width: 30%;
+    font-size: 3rem;
+}
+
+span {
+    color: rgb(117, 23, 117);
+}
+
+.btn {
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 6px;
+    background-color: #1e2167;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.rightsection {
+    align-items: center;
+    width: 30%;
+}
+
+.rightsection img {
+    width: 80%;
+    margin: 50px 0;
+}
+
+.secondsection {
+    width: 90%;
+    margin-left: 80px;
+    align-items: center;
+    padding: 30px;
+    height: 600px;
+    /* background-color: brown; */
+}
+
+.secondsection h1 {
+    padding-bottom: 80px;
+    font-size: 1.1rem;
+}
+
+.secondsection p {
+    font-size: 0.8rem;
+}
+
+.box {
+    border: 0;
+    background-color: white;
+    height: 1.5px;
+    width: 85vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.vertical {
+    width: 0.9px;
+    height: 96px;
+    background-color: gray;
+}
+
+.image-top {
+    width: 30px;
+    height: 200px;
+    
+}
+
+.vertical-titl {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    left: -23px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 90px;
+    width: 160px;
+    left: -20px;
+    font-size: 0.9rem;
+    color: gray;
+}
+
+footer {
+    background-color: rgb(11, 20, 58);
+    padding-top: 60px;
+}
+
+.footer {
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+footer ul li {
+    list-style: none;
+    width: 145px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul li a:hover {
+    color: rgb(64, 64, 157);
+    font-size: 1.1rem;
+}
+
+.text-center {
+    text-align: center;
+    color: gray;
+    padding-bottom: 10px;
+}

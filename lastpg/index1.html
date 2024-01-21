@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Patna</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Bootstrap JS and Popper.js -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left-menu">
+                <ul class="menu" id="menu-list">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="#explore">Explore</a></li>
+                    <li><a href="nearby/index.html">Plan Your Trip</a></li>
+                    <li><a href="#contact">Contact us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="center-content">
+            <div class="hero">
+                <!-- <img src="images/patna-banner.jpg" alt="Panoramic view of Patna"> -->
+                <h1>Nalanda: India's Cultural Treasure</h1>
+                <a href="#explore" class="btn">Discover the Essence of Patna</a>
+            </div>
+        </div>
+    </header>
+
+    <div id="middle">
+        <section id="about" class="content-section">
+            <h2>About Nalanda</h2>
+            <img src="nalanda.jpg" alt="About Nalanda"
+                style="margin: 20px 0 0 20px; width: 100%; max-width:1000px; height:600px; border:2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); ">
+            <p style="max-width:1130px; margin: 35px 0 60px 20px;">Nalanda holds immense historical significance as an
+                ancient center of learning and intellectual pursuit in India. Established around the 5th century CE, it
+                became one of the world's first residential universities, attracting scholars from various parts of
+                Asia. Its curriculum covered a wide range of subjects, including philosophy, astronomy, medicine, and
+                mathematics. Nalanda played a pivotal role in the transmission of knowledge, fostering an environment
+                that encouraged debate and critical thinking. The renowned scholars like Aryabhata, Nagarjuna, and
+                Bodhidharma are believed to have been associated with Nalanda. The library of Nalanda was a treasure
+                trove of ancient manuscripts, making it a center for the preservation and dissemination of knowledge.
+                Unfortunately, the university faced destruction during invasions, notably in the 12th century by Turkic
+                invaders led by Bakhtiyar Khilji. Despite its physical decline, Nalanda's legacy endured, influencing
+                educational traditions across Asia and contributing to the rich tapestry of India's intellectual
+                history. The ruins of Nalanda stand as a poignant reminder of the scholarly excellence that once thrived
+                within its walls, symbolizing the enduring quest for knowledge in human history.</p>
+        </section>
+
+        <!-- <section id="foods" class="content-section">
+            <h2>Local Cuisine</h2>
+            <img src="images/foods.jpg" alt="Local Cuisine">
+            <p>Experience the culinary delights of Patna with its diverse local cuisine. From mouth-watering Bihari sweets to savory dishes like litti chokha, the city offers a gastronomic journey for every food enthusiast.</p>
+        </section> -->
+
+        <section id="foods" class="content-section">
+            <h2></h2>
+            <div class="wp-block-kadence-tabs">
+                <div class="kt-tabs-wrap">
+                    <ul class="kt-tabs-title-list" role="tablist">
+                        <li class="kt-title-item active" role="presentation" onclick="changeTab(1)">Local Cuisine</li>
+                        <li class="kt-title-item" role="presentation" onclick="changeTab(2)">Religion & Culture </li>
+                        <li class="kt-title-item" role="presentation" onclick="changeTab(3)">Tourist-places</li>
+                        <li class="kt-title-item" role="presentation" onclick="changeTab(4)">Guesthouse</li>
+                    </ul>
+
+                    <div id="tabContent1" class="tab-content active">
+                        <p style="margin: 10px 265px 0 42px">Content for Tab 1 goes here. Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Similique ut facilis tenetur. Est perspiciatis aliquam
+                            laudantium omnis non natus, dolor vel et adipisci voluptate deleniti obcaecati eius iusto
+                            enim sit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo iusto fuga,
+                            alias unde recusandae consectetur quibusdam maiores dolorum? Recusandae odio animi at nemo,
+                            nihil eveniet possimus? Soluta ipsa voluptatem necessitatibus? </p>
+                        <!-- <img src="vst.jpeg" alt="Tab 1 Image"> -->
+                        <div class="footer">
+                            <!-- <h2>Image Gallery</h2> -->
+                            <div class="image-container" style="margin: 33px 0 0 0">
+                                <!-- Add your 10 image sources here -->
+                                <img src="jarasandh.jpg" alt="Image 1">
+                                <!-- <img src="mountainvw.jpeg" alt="Image 2"> -->
+                                <img src="Mulagandhakuti_in_Vulture_Peak.jpg" alt="Image 3">
+                                <!-- <img src="pandu.jpeg" alt="Image 4"> -->
+                                <img src="ropeway.jpeg" alt="Image 5">
+                                <!-- <img src="Shanti stupa.jpeg" alt="Image 6">  -->
+                                <img src="venuvan.jpeg" alt="Image 7">
+                                <!-- <img src="vst.jpeg" alt="Image 8"> -->
+                                <img src="Temple.jpeg" alt="Image 9">
+                                <!-- <img src="jarasandh.jpg" alt="Image 10"> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tabContent2" class="tab-content">
+                        <p style="margin: 10px 265px 13px 42px">Content for Tab 1 goes here. Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Similique ut facilis tenetur. Est perspiciatis aliquam
+                            laudantium omnis non natus, dolor vel et adipisci voluptate deleniti obcaecati eius iusto
+                            enim sit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo iusto fuga,
+                            alias unde recusandae consectetur quibusdam maiores dolorum? Recusandae odio animi at nemo,
+                            nihil eveniet possimus? Soluta ipsa voluptatem necessitatibus?</p>
+                        <!-- <img src="Temple.jpeg" alt="Tab 2 Image"> -->
+                        <div class="footer">
+                            <!-- <h2>Image Gallery</h2> -->
+                            <div class="image-container">
+                                <!-- Add your 10 image sources here -->
+                                <!-- <img src="jarasandh.jpg" alt="Image 1"> -->
+                                <img src="mountainvw.jpeg" alt="Image 2">
+                                <img src="Mulagandhakuti_in_Vulture_Peak.jpg" alt="Image 3">
+                                <!-- <img src="pandu.jpeg" alt="Image 4"> -->
+                                <img src="ropeway.jpeg" alt="Image 5">
+                                <!-- <img src="Shanti stupa.jpeg" alt="Image 6"> -->
+                                <img src="venuvan.jpeg" alt="Image 7">
+                                <!-- <img src="vst.jpeg" alt="Image 8"> -->
+                                <!-- <img src="Temple.jpeg" alt="Image 9"> -->
+                                <img src="jarasandh.jpg" alt="Image 10">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tabContent3" class="tab-content">
+                        <p style="margin: 10px 265px 33px 42px">Content for Tab 1 goes here. Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Similique ut facilis tenetur. Est perspiciatis aliquam
+                            laudantium omnis non natus, dolor vel et adipisci voluptate deleniti obcaecati eius iusto
+                            enim sit. Lorem ipsum dolor sit amet, elit. Explicabo iusto fuga, alias unde recusandae
+                            consectetur quibusdam maiores dolorum? Recusandae odio animi at nemo, nihil eveniet
+                            possimus? Soluta ipsa voluptatem necessitatibus?</p>
+                        <!-- <img src="pandu.jpeg" alt="Tab 3 Image"> -->
+                        <div class="footer">
+                            <!-- <h2>Image Gallery</h2> -->
+                            <div class="image-container" style="margin: 0 0 0 0">
+                                <!-- Add your 10 image sources here -->
+                                <img src="jarasandh.jpg" alt="Image 1">
+                                <!-- <img src="mountainvw.jpeg" alt="Image 2"> -->
+                                <!-- <img src="Mulagandhakuti_in_Vulture_Peak.jpg" alt="Image 3"> -->
+                                <img src="pandu.jpeg" alt="Image 4">
+                                <img src="ropeway.jpeg" alt="Image 5">
+                                <!-- <img src="Shanti stupa.jpeg" alt="Image 6"> -->
+                                <img src="venuvan.jpeg" alt="Image 7">
+                                <!-- <img src="vst.jpeg" alt="Image 8"> -->
+                                <!-- <img src="Temple.jpeg" alt="Image 9"> -->
+                                <img src="jarasandh.jpg" alt="Image 10">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tabContent4" class="tab-content">
+                <p style="margin: 10px 265px 33px 42px">Content for Tab 1 goes here. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Similique ut facilis tenetur. Est perspiciatis aliquam laudantium
+                    omnis non natus, dolor vel et adipisci voluptate deleniti obcaecati eius iusto enim sit. Lorem ipsum
+                    dolor sit amet, elit. Explicabo iusto fuga, alias unde recusandae consectetur quibusdam maiores
+                    dolorum? Recusandae odio animi at nemo, nihil eveniet possimus? Soluta ipsa voluptatem
+                    necessitatibus?</p>
+                <!-- <img src="pandu.jpeg" alt="Tab 3 Image"> -->
+                <div class="footer">
+                    <!-- <h2>Image Gallery</h2> -->
+                    <div class="image-container" style="margin: 0 0 0 0">
+                        <!-- Add your 10 image sources here -->
+                        <!-- <img src="jarasandh.jpg" alt="Image 1"> -->
+                        <img src="mountainvw.jpeg" alt="Image 2">
+                        <!-- <img src="Mulagandhakuti_in_Vulture_Peak.jpg" alt="Image 3"> -->
+                        <img src="pandu.jpeg" alt="Image 4">
+                        <!-- <img src="ropeway.jpeg" alt="Image 5"> -->
+                        <img src="Shanti stupa.jpeg" alt="Image 6">
+                        <img src="venuvan.jpeg" alt="Image 7">
+                        <img src="vst.jpeg" alt="Image 8">
+                        <!-- <img src="Temple.jpeg" alt="Image 9"> -->
+                        <!-- <img src="jarasandh.jpg" alt="Image 10"> -->
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+
+    </section>
+
+    <h2 style="justify-content: center; margin: 12rem 0 0 42rem;">Discover More</h2> 
+    <section id="auto-changing-section" class="upfooter">
+        <div class="upimage-container">
+
+            <div class="image-text">Jalmandir</div>
+            <img src="nearby/jalmandir.jpeg" alt="Jalmandir">
+        
+            <div class="image-text">Ghorakatora</div>
+            <img src="nearby/ghorakatora.jpeg" alt="Ghorakatora">
+        
+            <div class="image-text">Kundalpur</div>
+            <img src="nearby/kundalpur.jpeg" alt="Kundalpur">
+        
+            <div class="image-text">Venuvan</div>
+            <img src="venuvan.jpeg" alt="Venuvan">
+        
+            <div class="image-text">Hiuen Tsang Memorial Hall</div>
+            <img src="nearby/HiuenTsangmemorialhall.jpeg" alt="Hiuen Tsang Memorial Hall">
+        
+        </div>
+    </section>
+    </div>
+
+    <footer id="real footer">
+        <div id="menu-content">
+            <h3>Additional Information</h3>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#explore">Explore</a></li>
+                <li><a href="#plan">Plan Your Trip</a></li>
+                <li><a href="../index.html">Contact us</a></li>
+            </ul>
+        </div>
+        <p>&copy; 2024 Explore Patna</p>
+    </footer>
+
+    <script>
+        function changeTab(tabNumber) {
+            document.querySelectorAll('.kt-title-item').forEach(item => {
+                item.classList.remove('active');
+            });
+
+            document.querySelectorAll('.tab-content').forEach(content => {
+                content.classList.remove('active');
+            });
+
+            document.querySelector(`#tabContent${tabNumber}`).classList.add('active');
+            document.querySelector(`.kt-title-item:nth-child(${tabNumber})`).classList.add('active');
+        }
+    </script>
+</body>
+
+</html>

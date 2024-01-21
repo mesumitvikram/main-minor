@@ -1,0 +1,261 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+nav ul a:hover {
+    background-color: #555; /* Change the background color on hover */
+    color: #fff; /* Change the text color on hover */
+    border-radius: 5px;
+    padding: 5px;
+    /* Add any other styles you want to apply on hover */
+}
+/* Hero section styles */
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+#middle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.content-section {
+    margin-bottom: 40px;
+}
+
+img {
+    width: 100%; /* Make the image responsive */
+    max-width: 1000px; /* Set a maximum width for larger screens */
+    height: 600px;
+    border: 2px solid #ddd; /* Add a bor5er around the image */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+    margin: 20px 0 0 0; /* Optional: Add some margin for spacing */
+}
+
+.content-section h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.content-section p {
+    color: #666;
+}
+
+#image-carousel {
+    margin-top: 20px;
+}
+
+.auto-changing-content {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#menu-content{
+    margin-bottom: 200px;
+}
+
+#menu-content ul {
+    list-style: none;
+    justify-content: center;
+}
+
+#menu-content a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+
+
+.wp-block-kadence-tabs {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.kt-tabs-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kt-tabs-title-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 888px 0 0;
+    display: flex;
+}
+
+.kt-title-item {
+    margin: 5px 7px 7px 10px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #ddd;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    user-select: none;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.kt-title-item.active {
+    background-color: #9cbfe6;
+    color: #171616;
+}
+
+.kt-tabs-content-wrap {
+    display: flex;
+    /* flex-wrap: wrap;
+    justify-content: space-between; */
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #d81818;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.tab-content {
+    /* overflow: hidden; */
+    flex:1;
+    margin: 5px;
+    display: none;
+    border: 1px solid #dddd;
+}
+
+.tab-content.active {
+    display: block;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+img {
+    max-width: 80%;
+    height: 40%;
+    border-radius: 4px;
+}
+
+
+.footer {
+    background-color: transparent;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0; /* No gap between images */
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.image-container img {
+    max-width: 20%;
+    height: auto;
+    margin: 0; /* Reset default margin */
+    border-radius: 8px; /* Add border-radius if desired */
+}
+
+.upfooter {
+    background-color: transparent;
+    color: #fff;
+    padding: 0 0 3px 0;
+    text-align: center;
+}
+
+.upimage-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0; /* No gap between images */
+    margin-top: 20px; 
+}
+
+.upimage-container img {
+    max-width: 20%;
+    height: auto;
+    margin: 0; 
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    /* border-radius: 8px;  */
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-item:hover .image-text {
+    opacity: 1;
+}
+
+
